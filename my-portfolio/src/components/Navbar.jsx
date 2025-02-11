@@ -8,26 +8,26 @@ const Nav = styled.nav`
   justify-content: center;
   gap: 30px;
   padding: 20px;
-  background: rgba(11, 11, 13, 0.9); // Dark semi-transparent background
-  backdrop-filter: blur(10px); // Adds a blur effect
-  border-bottom: 1px solid rgba(0, 255, 255, 0.2); // Neon blue border
+  background: rgba(11, 11, 13, 0.9); /* Slightly more transparent background */
+  backdrop-filter: blur(10px); /* Adds a blur effect */
+  border-bottom: 1px solid rgba(0, 255, 255, 0.2); /* Neon blue border */
   position: sticky;
   top: 0;
   z-index: 1000;
 `;
 
 const NavLink = styled(Link)`
-  color: #00FFFF; // Neon blue text
+  color: #00FFFF; /* Neon blue text */
   text-decoration: none;
   font-size: 1.2rem;
-  font-family: 'Orbitron', sans-serif; // Futuristic font
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
   text-transform: uppercase;
   letter-spacing: 1.5px;
   position: relative;
   transition: all 0.3s ease;
 
   &:hover {
-    color: #9D00FF; // Electric purple on hover
+    color: #9D00FF; /* Electric purple on hover */
     text-decoration: none;
   }
 
@@ -36,7 +36,7 @@ const NavLink = styled(Link)`
     position: absolute;
     width: 100%;
     height: 2px;
-    background: #00FFFF; // Neon blue underline
+    background: #00FFFF; /* Neon blue underline */
     bottom: -5px;
     left: 0;
     transform: scaleX(0);
